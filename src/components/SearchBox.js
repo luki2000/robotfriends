@@ -4,7 +4,8 @@ const SearchBox = ({searchChange}) => {
     return (
         <div className='pa2'>
             <form>
-                <label 
+                <label
+                style={{display:'none'}}
                 for="searchbox"
                 >Search: </label>
                 <input
