@@ -8,7 +8,7 @@ const SearchBox = ({searchChange}) => {
                 for="searchbox"
                 >Search: </label>
                 <input
-                    name="searchbox"
+                    id="searchbox"
                     onChange={searchChange}
                     className="pa3 ba b--green bg-lightest-blue"
                     type="search" 
