@@ -6,7 +6,7 @@ const SearchBox = ({searchChange}) => {
             <form>
                 <label 
                 for="searchbox"
-                style={{display:'none'}} >Search</label>
+                >Search: </label>
                 <input
                     name="searchbox"
                     onChange={searchChange}
