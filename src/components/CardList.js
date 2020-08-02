@@ -14,7 +14,7 @@ const Cardlist = ({ robots }) => {
     })
     return (
     <div>
-        {robotsLists}>
+        {robotsLists}
     </div>
     );
 };
